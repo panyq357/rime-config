@@ -1,0 +1,49 @@
+# weasel.custom.yaml
+# copied from: https://github.com/rime/weasel/wiki/示例#windows-11-风格
+# with modification.
+patch:
+  style/+:
+    label_format: "%s"
+    inline_preedit: true
+    font_face: "Noto Sans CJK SC"
+    label_font_face: "Noto Sans CJK SC"
+    comment_font_face: "UbuntuMono Nerd Font Mono"
+    font_point: 11
+    label_font_point: 11
+    comment_font_point: 11
+    horizontal: false
+    color_scheme: win11light
+    color_scheme_dark: win11dark
+    layout:
+      min_width: 10
+      margin_x: 8
+      margin_y: 8
+      border: 2
+      candidate_spacing: 8
+      hilite_spacing: 10
+      hilite_padding_x: 4
+      hilite_padding_y: 4
+      corner_radius: 10
+      round_corner: 8
+      shadow_radius: 8
+  preset_color_schemes/+:
+    win11light:
+      name: " Win11浅色 / Win11light"
+      text_color: 0x191919
+      label_color: 0x191919
+      hilited_label_color: 0x191919
+      back_color: 0xf9f9f9
+      border_color: 0x009e5a00
+      hilited_mark_color: 0xc06700
+      hilited_candidate_back_color: 0xf0f0f0
+      shadow_color: 0x20000000
+    win11dark:
+      name: "Win11暗色 / Win11Dark"
+      text_color: 0xf9f9f9
+      label_color: 0xf9f9f9
+      back_color: 0x2C2C2C
+      hilited_label_color: 0xf9f9f9
+      border_color: 0x002C2C2C
+      hilited_mark_color: 0xFFC24C
+      hilited_candidate_back_color: 0x383838
+      shadow_color: 0x20000000
