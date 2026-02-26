@@ -1,0 +1,8 @@
+---
+name: wubi86_custom
+version: "0"
+sort: by_weight
+import_tables:
+  - wubi86
+  - my_custom
+...

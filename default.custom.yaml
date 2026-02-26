@@ -1,0 +1,6 @@
+# How to use patch: https://github.com/rime/home/wiki/RimeWithSchemata#定製指南
+patch:
+  schema_list:
+    - schema: wubi86
+    - schema: wubi_pinyin
+  "ascii_composer/switch_key/Shift_L": commit_code
