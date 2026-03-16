@@ -47,3 +47,4 @@ patch:
       hilited_mark_color: 0xFFC24C
       hilited_candidate_back_color: 0x383838
       shadow_color: 0x20000000
+  global_ascii: true

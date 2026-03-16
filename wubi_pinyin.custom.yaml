@@ -1,2 +1,3 @@
 patch:
-  "translator/dictionary": wubi86_custom
+  translator/dictionary: wubi86_custom
+  recognizer/patterns/reverse_lookup: null

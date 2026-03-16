@@ -3,4 +3,5 @@ patch:
   schema_list:
     - schema: wubi86
     - schema: wubi_pinyin
-  "ascii_composer/switch_key/Shift_L": commit_code
+  ascii_composer/switch_key/Shift_L: commit_code
+  ascii_composer/switch_key/Shift_R: null
