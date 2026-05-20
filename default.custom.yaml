@@ -5,3 +5,5 @@ patch:
     - schema: wubi_pinyin
   ascii_composer/switch_key/Shift_L: commit_code
   ascii_composer/switch_key/Shift_R: null
+  switcher/hotkeys:
+    - "Control+Shift+grave"
