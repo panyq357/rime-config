@@ -1,0 +1,4 @@
+patch:
+  app_options/+:
+    com.mitchellh.ghostty:
+      ascii_mode: true
