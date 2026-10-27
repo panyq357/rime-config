@@ -1,3 +1,4 @@
 patch:
   translator/dictionary: wubi86_custom
   recognizer/patterns/reverse_lookup: null
+  punctuator/digit_separators: ""
